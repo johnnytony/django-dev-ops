@@ -16,7 +16,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Configuration file
-from app.config import host
+from conf import confs
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-z^r0vm!jnue4&5_k&)pp7&nz@!oxgj-_zrcv4e#_*dscmg0qa&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [host]
+ALLOWED_HOSTS = [confs.host]
 
 
 # Application definition
