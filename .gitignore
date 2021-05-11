@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Config files
-.conf/confs.py
+.app/conf/confs.py
 
 # Distribution / packaging
 .Python
