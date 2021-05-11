@@ -1,4 +1,4 @@
-import confs
+from conf import confs
 
 command = confs.project_path + '/env/bin/gunicorn'
 pythonpath = confs.project_path
